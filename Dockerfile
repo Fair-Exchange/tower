@@ -1,4 +1,4 @@
-FROM node:10.11 AS builder
+FROM node:14.19.1 AS builder
 
 ARG BUILD_EXPIRE=${BUILD_EXPIRE:-""}
 ARG BUILD_DOMAIN=${BUILD_DOMAIN:-""}
